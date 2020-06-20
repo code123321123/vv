@@ -1,0 +1,287 @@
+/* box sizing fix */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+
+
+
+
+#brand_logo{
+    height: 80px;
+}
+
+.jumbotron{
+    margin-bottom: 2rem;
+}
+.heading{
+    text-align: center;
+    text-decoration-style: solid;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.heading_underline{
+    width: 75%;
+    border-top: solid 0.1rem;
+    
+}
+
+
+
+#about_container{
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;;
+}
+
+.link_fix{
+    padding-bottom:4rem;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.carousel-item img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption{
+    text-shadow: 1px 1px 2px black;    
+}
+button {
+    text-align: center;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;;
+}
+*{
+    align-content: center;
+}
+
+.nav-item{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .brand_name{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .lead  {
+        font-size: 0.6rem;
+    }
+    p  {
+        font-size: 0.6rem;
+    }
+
+    .heading{
+        font-size: 1.0rem;
+    }
+
+    h3 {
+        font-size: 0.6rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    #brand_logo{
+        height: 1.5rem;
+    }
+    .navbar-toggler-icon{
+        font-size: 0.5rem;
+    }
+
+    .link_fix{
+        padding-bottom: 1.2rem;
+    }
+
+    .btn-primary{
+        font-size: 0.6rem;
+    }
+
+    .form-control{
+        font-size: 0.6rem;
+    }
+
+    label{
+        font-size: 0.8rem;
+    }
+
+
+ }
+
+ 
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .brand_name{
+        font-size: 1.8rem;
+        font-weight: bolder;
+    }
+
+    .lead  {
+        font-size: 0.9rem;
+    }
+    p  {
+        font-size: 0.9rem;
+    }
+
+    .heading{
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    #brand_logo{
+        height: 1.8rem;
+    }
+    .navbar-toggler-icon{
+        font-size: 0.8rem;
+    }
+
+    .link_fix{
+        padding-bottom: 1.3rem;
+    }
+
+    .btn-primary{
+        font-size: 0.9rem;
+    }
+
+    .form-control{
+        font-size: 0.9rem;
+    }
+
+    label{
+        font-size: 1.1rem;
+    }
+
+
+    
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .brand_name{
+        font-size: 1.8rem;
+        font-weight: bolder;
+    }
+
+    .lead  {
+        font-size: 0.9rem;
+    }
+    p  {
+        font-size: 0.9rem;
+    }
+
+    .heading{
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    #brand_logo{
+        height: 1.8rem;
+    }
+    .navbar-toggler-icon{
+        font-size: 0.8rem;
+    }
+
+    .link_fix{
+        padding-bottom: 1.6rem;
+    }
+
+    .btn-primary{
+        font-size: 0.9rem;
+    }
+
+    .form-control{
+        font-size: 0.9rem;
+    }
+
+    label{
+        font-size: 1.1rem;
+    }
+
+   
+
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .brand_name{
+        font-size: 2.1rem;
+        font-weight: bolder;
+    }
+
+    .lead  {
+        font-size: 1.1rem;
+    }
+    p  {
+        font-size: 1.1rem;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    #brand_logo{
+        height: 2.0rem;
+    }
+    .navbar-toggler-icon{
+        font-size: 1.0rem;
+    }
+
+    .link_fix{
+        padding-bottom: 1.4rem;
+    }
+
+    .btn-primary{
+        font-size: 1.1rem;
+    }
+
+    .form-control{
+        font-size: 1.1rem;
+    }
+
+    label{
+        font-size: 1.3rem;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 

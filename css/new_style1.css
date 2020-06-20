@@ -1,0 +1,2326 @@
+[class^=swiper-button-] {
+    transition:all .3s ease
+   }
+   .swiper-slide {
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden
+   }
+   a,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p {
+    text-align:center;
+    font-family:Merriweather,serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-shadow:2px 2px 8px #000;
+    color:goldenrod;
+    background-color:rgba(0,0,0,.05) ;
+    letter-spacing:1px;
+    font-weight:700
+   }
+   li {
+    color:#806600;
+    text-shadow:2px 2px 8px #000;
+    font-family:Merriweather,serif;
+    background:rgba(0,0,0,.05);
+    font-weight:700;
+    letter-spacing:1px
+   }
+   h1 {
+    font-size:2.4vw
+   }
+   h2 {
+    font-size:2vw
+   }
+   h3 {
+    font-size:1.7vw
+   }
+   p {
+    font-size:1.4vw
+   }
+   u {
+    color:goldenrod
+   }
+   hr {
+    height:.5vw;
+    border:#000
+   }
+   * {
+    box-sizing:border-box
+   }
+   .row::after {
+    content:"";
+    clear:both;
+    display:table
+   }
+   [class*=col-] {
+    float:left;
+    padding:1.5vw
+   }
+   .col-1 {
+    width:8.33vw
+   }
+   .col-2 {
+    width:16.66vw
+   }
+   .col-3 {
+    width:25vw
+   }
+   .col-4 {
+    width:33.33vw
+   }
+   .col-5 {
+    width:41.66vw
+   }
+   .col-6 {
+    width:50vw
+   }
+   .col-7 {
+    width:58.33vw
+   }
+   .col-8 {
+    width:66.66vw
+   }
+   .col-9 {
+    width:75vw
+   }
+   .col-10 {
+    width:83.33vw
+   }
+   .col-11 {
+    width:91.66vw
+   }
+   .col-12 {
+    width:100vw
+   }
+   @media (max-width:1000px) {
+    body,
+    html {
+     width:100vw;
+     height:100vh;
+     margin:0;
+     padding:0
+    }
+    html {
+     scroll-behavior:smooth
+    }
+    .about_header h1 {
+     font-size:5vw
+    }
+    .header ul {
+     z-index:999999;
+     border:0;
+     font-size:2.4vw!important;
+     letter-spacing:.3vw;
+     border-radius:0;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     text-shadow:2px 2px 8px #000;
+     overflow:hidden;
+     font-weight:700;
+     position:fixed;
+     width:100%;
+     list-style-type:none;
+     margin:0;
+     padding:.4vw;
+     height:11vw
+    }
+    .header li {
+     float:left;
+     line-height:5.5vw
+    }
+    .header li a {
+     display:block;
+     color:#806600;
+     text-align:center;
+     padding:2.3vw;
+     text-decoration:none
+    }
+    .header li a:hover:not(.active) {
+     background-color:#806600;
+     color:#000
+    }
+    .header .active {
+     background-color:#806600;
+     color:#000
+    }
+    .header ul:before {
+     content:"";
+     filter:blur(5px);
+     position:absolute;
+     top:-10vw;
+     bottom:-10vw;
+     left:-10vw;
+     right:-10vw;
+     background:#806600;
+     display:block;
+     z-index:-1;
+     background:#000
+    }
+    .header #logo {
+     height:10vw;
+     width:10vw;
+     transition:.6s;
+     border-radius:2vw 2vw 2vw 2vw;
+     background:#806600
+    }
+    .header #logo_text {
+     color:#806600
+    }
+    .icon {
+     height:10vw;
+     width:100%;
+     border:.25vw solid #806600;
+     background:#806600;
+     border-radius:1vw 1vw 1vw 1vw
+    }
+    .homeh1 {
+     background-color:#000;
+     background-color:rgba(0,0,0,.4);
+     background:#000;
+     opacity:.9;
+     border:.5vw solid #806600;
+     position:absolute;
+     top:40%;
+     left:50vw;
+     transform:translate(-50%,-50%);
+     z-index:20;
+     width:80vw;
+     padding:1vw;
+     text-align:center
+    }
+    .homeh1 h1 {
+     font-size:4vw;
+     color:#806600;
+     font-weight:700
+    }
+    .homeh1 .book_btn {
+     background-color:#000;
+     background-color:rgba(0,0,0,.4);
+     background:#000;
+     opacity:.95;
+     color:#806600;
+     border:.5vw solid #806600;
+     position:absolute;
+     top:90%;
+     left:40vw;
+     transform:translate(-50%,30%);
+     z-index:20000;
+     width:20vw;
+     padding:10vw;
+     text-align:center
+    }
+    .homeh1 .book_btn p {
+     font-weight:700
+    }
+    .homeh1 .book_btn p {
+     color:#806600;
+     font-size:1.8vw
+    }
+    .homeh1 .book_btn:hover {
+     cursor:pointer;
+     border:.5vw solid #000;
+     background:#806600
+    }
+    .homeh1 .book_btn:hover p {
+     color:#000
+    }
+    .parallax_home {
+     width:100vw;
+     background-image:url(../images/WhatsApp\ Image\ 2020-06-09\ at\ 1.45.21\ PM.jpeg);
+     filter:blur(0);
+     -webkit-filter:blur(0);
+     height:100%;
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:100% 100%;
+     overflow-x:hidden
+    }
+    .parallax_home .center-con {
+     height:100vh;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+    }
+    .parallax_home .round {
+     position:relative;
+     border:.25vw solid #806600;
+     width:11vw;
+     height:11vw;
+     border-radius:100%;
+     margin-top:50vw;
+     margin-bottom:5vw;
+     background:#000;
+     opacity:.9;
+     cursor:pointer;
+     margin-left:2vw;
+    }
+    .parallax_home a span {
+     z-index:999;
+     height:.5vw;
+     margin:0;
+     width:3.5vw;
+     background:#806600;
+     transition:.4s ease
+    }
+    .parallax_home a span:first-child {
+     display:block;
+     position:absolute;
+     transform:rotate(45deg);
+     left:25%;
+     bottom:35%
+    }
+    .parallax_home a span:nth-child(2) {
+     display:block;
+     position:absolute;
+     transform:rotate(-45deg);
+     left:45%;
+     bottom:35%
+    }
+    .parallax_home a span:nth-child(3) {
+     display:block;
+     position:absolute;
+     transform:rotate(45deg);
+     left:25%;
+     bottom:54%
+    }
+    .parallax_home a span:nth-child(4) {
+     display:block;
+     position:absolute;
+     transform:rotate(-45deg);
+     left:45%;
+     bottom:54%
+    }
+    .parallax_home .round:hover span:nth-child(1) {
+     transform:rotate(-135deg)
+    }
+    .parallax_home .round:hover span:nth-child(2) {
+     transform:rotate(135deg)
+    }
+    .parallax_home .round:hover span:nth-child(3) {
+     transform:rotate(225deg)
+    }
+    .parallax_home .round:hover span:nth-child(4) {
+     transform:rotate(-225deg)
+    }
+    .parallax_about,
+    .parallax_contact,
+    .parallax_founders,
+    .parallax_gallery,
+    .parallax_news,
+    .parallax_services,
+    .parallax_sponsors {
+     background-image:url(../images/Webp.net-compress-image.jpg);
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-position:center;
+     height:auto;
+     overflow-x:hidden
+    }
+    .parallax_about {
+     width:100vw
+    }
+    .parallax_about .about_header li {
+     font-size:2.8vw;
+     color:#806600;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     text-shadow:2px 2px 8px #000;
+     text-shadow:2px 2px 8px #000
+    }
+    .parallax_about .about_header .bigBox {
+     border:.5vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw;
+     margin:1vw 6vw 1vw 6vw;
+     background:#000;
+     opacity:.9;
+     padding:2vw 2vw 2vw 2vw
+    }
+    .parallax_about .down-arrow {
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     background:#806600;
+     width:15vw;
+     height:12vw;
+     border-radius:50%;
+     border:.25vw solid #806600;
+     object-fit:cover;
+     margin-top:-6vw;
+     outline:0
+    }
+    .parallax_about #about-hid {
+     max-height:0;
+     overflow:hidden;
+     transition:max-height .6s ease-out
+    }
+    .parallax_about #info {
+     height:9vw;
+     width:10vw;
+     padding-top:.6vw;
+     display:block;
+     background:#806600;
+     border:1vw solid #806600;
+     border-radius:5vw 5vw 5vw 5vw
+    }
+    .parallax_about #icon_separate {
+     height:0;
+     width:0;
+     float:right
+    }
+    .parallax_about h1,
+    .parallax_about h2,
+    .parallax_about h3 {
+     font-weight:700
+    }
+    .parallax_about h3 {
+     text-align:left;
+     margin:0 2vw
+    }
+    .parallax_about ul {
+     margin:2vw
+    }
+    .parallax_about a:hover {
+     box-shadow:inset -1.5vw 0 #806600;
+     -webkit-transition:box-shadow .5s;
+     transition:box-shadow .5s
+    }
+    .parallax_about li {
+     list-style-type:none
+    }
+    .parallax_about .list-type3 {
+     margin:0 auto;
+     width:90%
+    }
+    .parallax_about .list-type3 a,
+    .parallax_about .list-type3 li {
+     float:left;
+     height:7vw;
+     width:100%;
+     line-height:3.5vw;
+     position:relative;
+     font-size:2.5vw;
+     margin-bottom:2.4vw;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     letter-spacing:1px;
+     transition:background-color 1.5s ease
+    }
+    .parallax_about .list-type3 a {
+     text-align:left;
+     padding:2vw 2vw 2vw 2vw;
+     background:#806600;
+     color:#000;
+     text-decoration:none;
+     -moz-border-radius-bottomright:.8vw;
+     -webkit-border-bottom-right-radius:.8vw;
+     border-bottom-right-radius:.8vw;
+     -moz-border-radius-topright:.8vw;
+     -webkit-border-top-right-radius:.8vw;
+     border-top-right-radius:.8vw
+    }
+    .parallax_about .list-type3 a:before {
+     content:"";
+     float:left;
+     position:absolute;
+     top:0;
+     left:-2.4vw;
+     width:0;
+     height:0;
+     border-color:transparent #806600 transparent transparent;
+     border-style:solid;
+     border-width:3.6vw 2.4vw 3.6vw 0
+    }
+    .parallax_about .list-type3 a:after {
+     content:"";
+     position:absolute;
+     top:3vw;
+     left:0;
+     float:left;
+     width:1.2vw;
+     height:1.2vw;
+     -moz-border-radius:2px;
+     -webkit-border-radius:2px;
+     border-radius:2px;
+     background:#000;
+     -moz-box-shadow:-1px -1px 2px #806600;
+     -webkit-box-shadow:-1px -1px 2px #806600;
+     box-shadow:-1px -1px 2px #806600
+    }
+    .parallax_about .list-type3 a:hover {
+     background:olive
+    }
+    .parallax_about .list-type3 a:hover:before {
+     border-color:transparent #806600 transparent transparent
+    }
+    .parallax_services {
+     width:100vw
+    }
+    .parallax_services img {
+     height:100%;
+     width:100%;
+     border-radius:1.5vw 1.5vw 1.5vw 1.5vw
+    }
+    .parallax_services .flip-card {
+     background-color:transparent;
+     width:30vw;
+     height:55vw;
+     perspective:1000px
+    }
+    .parallax_services .flip-card-inner {
+     position:relative;
+     width:100%;
+     height:100%;
+     text-align:center;
+     transition:transform 1s;
+     transform-style:preserve-3d;
+     box-shadow:0 4px 8px 0 rgba(0,0,0,.2)
+    }
+    .parallax_services .flip-card:hover .flip-card-inner {
+     transform:rotateY(180deg)
+    }
+    .parallax_services .flip-card-back,
+    .parallax_services .flip-card-front {
+     position:absolute;
+     width:100%;
+     height:100%;
+     -webkit-backface-visibility:hidden;
+     backface-visibility:hidden;
+     border:.5vw solid #806600;
+     border-radius:2vw 2vw 2vw 2vw
+    }
+    .parallax_services .flip-card-front {
+     background-color:#bbb;
+     color:#000
+    }
+    .parallax_services .flip-card-back {
+     background-color:#000;
+     color:#806600;
+     transform:rotateY(180deg)
+    }
+    .parallax_services .flip-card-back h1,
+    .parallax_services .flip-card-back h2 {
+     background:rgba(0,0,0,0)
+    }
+    .parallax_services .flip-card-back h1 {
+     font-size:2.8vw
+    }
+    .parallax_services .flip-card-back h2 {
+     font-size:2.4vw
+    }
+    .parallax_services .flip-card-back p {
+     text-align:center;
+     background:rgba(0,0,0,0);
+     font-size:1.9vw
+    }
+    .parallax_services a {
+     text-decoration:none;
+     cursor:default;
+     background:#000;
+     opacity:.9;
+     border:.5vw solid #806600;
+     border-radius:4vw 4vw 4vw 4vw;
+     width:18vw;
+     display:block;
+     cursor:pointer;
+     font-size:2vw;
+     padding:1vw;
+     margin:1vw 7vw 1vw 7vw
+    }
+    .parallax_services h3,
+    .parallax_services li,
+    .parallax_services p {
+     text-align:left
+    }
+    .parallax_services li {
+     list-style-type:none
+    }
+    .parallax_services h1,
+    .parallax_services h2 {
+     font-weight:700
+    }
+    .parallax_services a:hover {
+     box-shadow:inset -1vw 0 #806600;
+     -webkit-transition:box-shadow .5s;
+     transition:box-shadow .5s
+    }
+    .parallax_services .list-type5 {
+     width:85%;
+     margin:0 auto
+    }
+    .parallax_services .list-type5 ol {
+     list-style-type:none;
+     list-style-type:decimal;
+     margin:0;
+     margin-left:1vw;
+     padding:0;
+     counter-reset:li-counter
+    }
+    .parallax_services .list-type5 ol li {
+     position:relative;
+     margin-bottom:1.5vw;
+     padding:.5vw;
+     background-color:#000;
+     opacity:.9;
+     padding-left:1vw;
+     border:.5vw solid #806600;
+     border-radius:5vw 5vw 5vw 5vw
+    }
+    .parallax_services .list-type5 a {
+     cursor:auto;
+     text-decoration:none;
+     color:#806600;
+     width:100%;
+     margin:1vw;
+     padding:1vw;
+     font-size:2.5vw;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     text-shadow:2px 2px 8px #000;
+     letter-spacing:1px;
+     font-weight:700;
+     border:0;
+     box-shadow:inset -1vw 0 #806600;
+     -webkit-transition:box-shadow .5s;
+     transition:box-shadow .5s;
+     border-radius:5vw 5vw 5vw 5vw
+    }
+    .parallax_services .list-type5 ol li:before {
+     position:absolute;
+     top:-.3vw;
+     left:-.5vw;
+     width:4vw;
+     height:2vw;
+     font-size:3vw;
+     padding:2vw 0 2vw 0;
+     line-height:1.2vw;
+     font-weight:700;
+     text-align:center;
+     color:#fff;
+     background-color:#000;
+     opacity:.9;
+     color:#806600;
+     transform:rotate(-20deg);
+     -ms-transform:rotate(-20deg);
+     -webkit-transform:rotate(-20deg);
+     z-index:99;
+     overflow:hidden;
+     content:counter(li-counter);
+     counter-increment:li-counter;
+     border:.25vw solid #806600
+    }
+    .parallax_sponsors {
+     width:100vw
+    }
+    .parallax_sponsors .box img {
+     width:25vw;
+     height:20vw;
+     margin-left:auto;
+     margin-right:auto;
+     display:block
+    }
+    .parallax_sponsors .box h5 {
+     font-size:2.5vw;
+     margin:4vw
+    }
+    .parallax_sponsors h1,
+    .parallax_sponsors h2 {
+     font-weight:700
+    }
+    .parallax_sponsors h1,
+    .parallax_sponsors h2,
+    .parallax_sponsors h3 {
+     color:#806600
+    }
+    .parallax_sponsors img {
+     border:.25vw solid #806600;
+     background-color:#806600;
+     border-radius:1vw 1vw 1vw 1vw
+    }
+    .parallax_gallery {
+     width:100vw
+    }
+    .parallax_gallery *,
+    .parallax_gallery :after,
+    .parallax_gallery :before {
+     box-sizing:border-box;
+     margin:0;
+     padding:0
+    }
+    .parallax_gallery .swiper-container {
+     background:#000;
+     width:75vw;
+     height:80vh;
+     float:left;
+     transition:opacity .6s ease,transform .3s ease
+    }
+    .parallax_gallery .swiper-container.nav-slider {
+     width:25vw;
+     padding-left:5px
+    }
+    .parallax_gallery .swiper-container.nav-slider .swiper-slide {
+     cursor:pointer;
+     opacity:.4;
+     transition:opacity .3s ease
+    }
+    .parallax_gallery .swiper-container.nav-slider .swiper-slide.swiper-slide-active {
+     opacity:1
+    }
+    .parallax_gallery .swiper-container.nav-slider .swiper-slide .content {
+     width:100%
+    }
+    .parallax_gallery .swiper-container.nav-slider .swiper-slide .content .title {
+     font-size:3vw
+    }
+    .parallax_gallery .swiper-container:hover .swiper-button-next,
+    .parallax_gallery .swiper-container:hover .swiper-button-prev {
+     transform:translateX(0);
+     opacity:1;
+     visibility:visible
+    }
+    .parallax_gallery .swiper-container.loading {
+     opacity:0;
+     visibility:hidden
+    }
+    .parallax_gallery .swiper-slide {
+     overflow:hidden
+    }
+    .parallax_gallery .swiper-slide .slide-bgimg {
+     position:absolute;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     background-position:center;
+     background-size:100% 100%
+    }
+    .parallax_gallery .swiper-slide .entity-img {
+     display:none
+    }
+    .parallax_gallery .swiper-slide .content {
+     position:absolute;
+     top:70%;
+     left:0;
+     width:50%;
+     padding-left:5%;
+     z-index:999999;
+     color:#806600;
+     font-weight:700
+    }
+    .parallax_gallery .swiper-slide .content .title {
+     text-align:left;
+     font-size:4vw;
+     font-weight:700;
+     margin-bottom:3vw
+    }
+    .parallax_gallery .swiper-slide .content span {
+     background:#000;
+     opacity:.9
+    }
+    .parallax_gallery .swiper-slide .content .caption {
+     display:block;
+     font-size:3vw;
+     line-height:1.4;
+     transform:translateX(50px);
+     opacity:.5;
+     transition:opacity .3s ease,transform .7s ease
+    }
+    .parallax_gallery .swiper-slide .content .caption.show {
+     transform:translateX(0);
+     opacity:.9
+    }
+    .parallax_gallery [class^=swiper-button-] {
+     width:8.8vw;
+     opacity:0;
+     visibility:hidden
+    }
+    .parallax_gallery .swiper-button-prev {
+     transform:translateX(50px);
+     color:#806600;
+     cursor:grab;
+     font-weight:700;
+     outline:0
+    }
+    .parallax_gallery .swiper-button-next {
+     transform:translateX(-50px);
+     color:#806600;
+     cursor:grab;
+     font-weight:700;
+     outline:0
+    }
+    .parallax_gallery img {
+     width:10%
+    }
+    .parallax_contact {
+     width:100vw
+    }
+    .parallax_contact p {
+     text-align:left;
+     font-size:2vw;
+     margin-top:auto;
+     padding-top:3vw
+    }
+    .parallax_contact h1 {
+     font-weight:700
+    }
+    .parallax_contact button {
+     border:.5vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw;
+     background:#000
+    }
+    .parallax_contact button p {
+     color:#806600;
+     font-size:1vw
+    }
+    .parallax_contact textarea {
+     font-size:2vw;
+     border:.5vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw;
+     background:#000;
+     margin-right:2vw
+    }
+    .parallax_contact textarea::placeholder {
+     color:#806600
+    }
+    .parallax_contact .icon {
+     height:8vw;
+     width:8vw;
+     margin:.5vw 2vw 2vw 2vw;
+     background:#806600;
+     border:.25vw solid #806600;
+     border-radius:1.5vw 1.5vw 1.5vw 1.5vw;
+     box-shadow:0 4px 8px 0 rgba(0,0,0,.5),0 6px 20px 0 rgba(0,0,0,.5)
+    }
+    .parallax_contact .icons {
+     height:8vw;
+     width:8vw;
+     background:#806600;
+     border:.25vw solid #806600;
+     border-radius:1.5vw 1.5vw 1.5vw 1.5vw;
+     box-shadow:0 4px 8px 0 rgba(0,0,0,.5),0 6px 20px 0 rgba(0,0,0,.5);
+     margin:1vw
+    }
+    .parallax_contact .icon:hover {
+     width:9vw;
+     height:9vw
+    }
+    .parallax_contact .mapouter {
+     position:relative;
+     text-align:right;
+     height:30vw;
+     width:30vw;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     -webkit-filter:invert(1);
+     filter:invert(1)
+    }
+    .parallax_contact .gmap_canvas {
+     overflow:hidden;
+     background:0 0!important;
+     height:30vw;
+     width:30vw;
+     border:.5vw solid #7f9fef;
+     border-radius:3vw 3vw 3vw 3vw
+    }
+    .parallax_contact .box {
+     width:80%;
+     height:8vw;
+     background:#806600;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     margin:1vw 1vw 1wv 1vw;
+     padding:.5vw 1vw 1vw 1vw;
+     border-radius:1vw 1vw 1vw 1vw;
+     box-shadow:0 4px 8px 0 rgba(0,0,0,.9),0 6px 20px 0 rgba(0,0,0,.9)
+    }
+    .parallax_contact .box a {
+     cursor:auto
+    }
+    .parallax_contact .box a img {
+     cursor:pointer
+    }
+    .parallax_news {
+     width:100vw
+    }
+    .parallax_news h1 {
+     font-weight:700
+    }
+    .parallax_news .mySlidesNews {
+     display:none;
+     transition:.5s;
+     margin-bottom:10vw
+    }
+    .parallax_news img {
+     border:.5vw solid #806600;
+     border-radius:2vw 2vw 2vw 2vw
+    }
+    .parallax_news .icon {
+     width:8vw;
+     height:8vw;
+     margin-left:auto;
+     margin-right:auto;
+     display:block
+    }
+    .parallax_news .para {
+     display:none;
+     color:#806600
+    }
+    .parallax_news .col-2 a {
+     text-decoration:none;
+     display:inline-block;
+     font-size:2vw;
+     width:4vw;
+     margin:10vw 5vw;
+     text-align:center;
+     cursor:pointer
+    }
+    .parallax_news .col-2 a:hover {
+     background-color:#000;
+     color:#806600;
+     width:4.5vw
+    }
+    .parallax_news .next,
+    .parallax_news .previous {
+     background-color:#806600;
+     color:#000
+    }
+    .parallax_news .round {
+     border-radius:50%
+    }
+    .parallax_founders {
+     width:100vw
+    }
+    .parallax_founders h1 {
+     font-weight:700
+    }
+    .parallax_founders img {
+     float:middle;
+     border:.5vw solid #806600;
+     border-radius:50%;
+     width:30vw;
+     height:55vh;
+     object-fit:cover;
+     box-shadow:5px 5px #000,10px 10px #806600,15px 15px #000
+    }
+    .parallax_founders .icon {
+     width:4.5vw;
+     height:3.5vw;
+     margin:1.2vw;
+     border-radius:1.5vw 1.5vw 1.5vw 1.5vw;
+     border:.25vw solid #806600
+    }
+    .parallax_founders .mySlidesfounders {
+     display:none
+    }
+    .parallax_founders .captionFounders {
+     display:none
+    }
+    .parallax_founders .w3-badge,
+    .parallax_founders .w3-left,
+    .parallax_founders .w3-right {
+     cursor:pointer;
+     color:#806600;
+     font-size:2vw
+    }
+    .parallax_founders .w3-left,
+    .parallax_founders .w3-right {
+     background:0 0;
+     color:#806600;
+     width:4vw;
+     font-size:3vw;
+     font-weight:700
+    }
+    .parallax_founders .caption-container {
+     background-color:transparent;
+     padding:.5vw .5vw
+    }
+    .parallax_founders .captionFounders {
+     color:#806600;
+     margin-left:4vw;
+     margin-right:4vw
+    }
+    .parallax_founders .captionFounders h1 {
+     font-weight:700
+    }
+    .parallax_founders .captionFounders .box {
+     border:.75vw solid #806600;
+     width:45%;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     background:#000;
+     opacity:.9;
+     margin-top:6vw;
+     padding:1vw;
+     margin-bottom:6vw;
+     box-shadow:5px 5px #000,10px 10px #806600,15px 15px #000
+    }
+    .parallax_founders .captionFounders .box p {
+     text-align:left;
+     margin-left:2vw;
+     margin:1vw;
+     padding:1vw
+    }
+    .parallax_founders .dot {
+     cursor:pointer;
+     height:2vw;
+     width:2vw;
+     margin:0 2px;
+     background-color:transparent;
+     border:.2vw solid #000;
+     border-radius:50%;
+     display:inline-block;
+     transition:background-color .6s ease
+    }
+    .parallax_founders .active,
+    .parallax_founders .dot:hover {
+     background-color:#806600
+    }
+    .open-button {
+     background-color:transparent;
+     height:15vw;
+     cursor:pointer;
+     opacity:.9;
+     position:fixed;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     bottom:5vw;
+     right:5vw;
+     width:12vw;
+     height:12vw;
+     border:0.25vw solid #806600;
+     border-radius:50%;
+     font-weight:700;
+     font-size:1vw;
+     z-index:1
+    }
+    .chat-popup {
+     display:none;
+     position:fixed;
+     bottom:4vw;
+     right:4vw;
+     border:.25vw solid #806600;
+     z-index:999;
+     width:25vw
+    }
+    .form-container {
+     max-width:25vw;
+     padding:.5vw;
+     background-color:#000;
+     font-size:3vw
+    }
+    .form-container input {
+     width:100%;
+     padding:.3vw;
+     margin:.5vw 0 1.2vw 0;
+     border:none;
+     background:#000;
+     color:#806600;
+     resize:none;
+     min-height:14vw;
+     border:.25vw solid #806600
+    }
+    .form-container textarea::placeholder {
+     color:#806600
+    }
+    .form-container textarea:focus {
+     background-color:#ddd;
+     outline:0
+    }
+    .form-container .btn {
+     background-color:#000;
+     color:#806600;
+     padding:1vw 1.6vw;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     text-shadow:2px 2px 8px #000;
+     border:.25vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw;
+     cursor:pointer;
+     width:100%;
+     margin-bottom:.5vw;
+     opacity:.8;
+     font-size:2vw
+    }
+    .form-container .cancel {
+     background-color:#000;
+     font-size:1vw
+    }
+    .form-container .btn:hover,
+    .open-button:hover {
+     opacity:1
+    }
+    body {
+     height:100vh
+    }
+    body .about_header h1 {
+     font-size:6vw;
+     margin-bottom:5vh
+    }
+    body .homeh1 h1 {
+     font-size:7vw
+    }
+    body .homeh1 .book_btn p {
+     font-size:2vw
+    }
+    body .parallax_home {
+     background-size:cover;
+     min-height:100vh
+    }
+    body .parallax_about .icon {
+     width:10vw;
+     margin:2vw
+    }
+    body .parallax_about #info {
+     height:12vw;
+     width:13vw
+    }
+    body .parallax_about h2 {
+     margin:4vw
+    }
+    body .parallax_about .pdf {
+     text-align:center;
+     background:#000;
+     color:#806600;
+     width:23%;
+     font-size:2.5vw;
+     text-decoration:none;
+     margin-right:auto;
+     margin-left:auto;
+     display:block;
+     padding:2vw;
+     border:.5vw solid #806600;
+     border-radius:5vw 5vw 5vw 5vw;
+     margin-top:5vw
+    }
+    body .parallax_about .box {
+     border:.5vw solid #806600;
+     text-align:center;
+     width:45vw;
+     height:35vw;
+     margin:1vw;
+     background:#000;
+     opacity:.9;
+     margin-left:auto;
+     margin-right:auto;
+     display:block
+    }
+    body .parallax_about .box h2 {
+     text-align:center;
+     font-size:3vw
+    }
+    body .parallax_about .box h2 {
+     color:#cca300
+    }
+    body .parallax_about .box h5 {
+     font-size:2.2vw
+    }
+    body .parallax_about .arrow {
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     width:15vw
+    }
+    body .parallax_services h3 {
+     text-align:left;
+     margin-right:3vw
+    }
+    body .parallax_gallery .container {
+     width:90vw
+    }
+    body .parallax_gallery .next,
+    body .parallax_gallery .prev {
+     top:30vw;
+     margin-left:3vw;
+     margin-right:3vw;
+     font-size:3vw
+    }
+    body .parallax_news .next,
+    body .parallax_news .previous {
+     font-size:5vw;
+     width:6vw
+    }
+    body .parallax_news a {
+     cursor:auto
+    }
+    body .parallax_news a img {
+     width:70vw;
+     height:70vw;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     cursor:pointer
+    }
+    body .parallax_news h5 {
+     font-size:2.5vw
+    }
+    body .parallax_founders {
+     height:auto
+    }
+    body .parallax_founders .w3-left,
+    body .parallax_founders .w3-right {
+     margin-left:10vw;
+     margin-right:10vw;
+     font-size:4vw;
+     width:5vw;
+     background:0 0;
+     color:#806600;
+     font-weight:700
+    }
+    body .parallax_founders .w3-badge {
+     float:middle
+    }
+    body .parallax_founders img {
+     margin-top:15vw;
+     width:60vw;
+     height:60vw
+    }
+    body .parallax_founders p {
+     margin-top:0
+    }
+    body .parallax_contact {
+     height:auto;
+     min-height:100vh
+    }
+    body .parallax_contact #end {
+     margin-top:15vh;
+     text-align:center
+    }
+    body .parallax_contact button p {
+     font-size:2vw
+    }
+    body .nav-bar-right {
+     display:none
+    }
+    body .sidebar {
+     height:100%;
+     width:0;
+     position:fixed;
+     z-index:1;
+     top:0;
+     right:0;
+     background-color:#111;
+     overflow-x:hidden;
+     transition:.5s;
+     padding-top:60px
+    }
+    body .sidebar a {
+     padding:8px 8px 8px 32px;
+     text-decoration:none;
+     font-size:20px;
+     color:#806600;
+     display:block;
+     transition:.3s
+    }
+    body .sidebar a:hover {
+     color:#000;
+     background-color:#806600
+    }
+    body .sidebar .closebtn {
+     position:absolute;
+     top:0;
+     right:10px;
+     font-size:36px;
+     background-color:#111;
+     color:#806600
+    }
+    body .sidebar .closebtn:hover {
+     background-color:#111;
+     color:#806600
+    }
+    body .openbtn {
+     font-size:20px;
+     cursor:pointer;
+     background-color:#000;
+     color:#806600;
+     padding:10px 15px;
+     border:none;
+     position:absolute;
+     top:0;
+     right:5px;
+     font-size:3vw;
+     height:10vw
+    }
+    body .openbtn:hover {
+     background-color:#444
+    }
+    body #main {
+     transition:margin-right .5s;
+     padding:16px
+    }
+    body h1 {
+     font-size:5vw
+    }
+    body h2 {
+     font-size:4vw
+    }
+    body h3 {
+     font-size:3vw
+    }
+    body p {
+     font-size:2.5vw
+    }
+    body .form-container h1 {
+     font-size:4.5vw
+    }
+    body .form-container .btn {
+     font-size:2.5vw
+    }
+    body .form-container .cancel {
+     font-size:2.5vw
+    }
+    body .form-container p {
+     font-size:3.5vw
+    }
+   }
+   @media (min-width:1001px) {
+    body,
+    html {
+     margin:0;
+     height:100vw
+    }
+    html {
+     scroll-behavior:smooth
+    }
+    .about_header h1 {
+     font-size:4vw
+    }
+    .header ul {
+     z-index:999999;
+     border:0;
+     font-size:1.4vw!important;
+     line-height:1.42857143!important;
+     letter-spacing:.3vw;
+     border-radius:0;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     text-shadow:2px 2px 8px #000;
+     overflow:hidden;
+     font-weight:700;
+     position:fixed;
+     width:100%;
+     list-style-type:none;
+     margin:0;
+     padding:.4vw;
+     height:7vw;
+     transition:.6s
+    }
+    .header li {
+     float:left
+    }
+    .header li a {
+     display:block;
+     color:#806600;
+     text-align:center;
+     padding:1.5vw 3vw 3vw 3vw;
+     text-decoration:none
+    }
+    .header li a:hover:not(.active) {
+     background-color:#806600;
+     color:#000
+    }
+    .header .active {
+     background-color:#806600;
+     color:#000
+    }
+    .header ul:before {
+     content:"";
+     filter:blur(5px);
+     position:absolute;
+     top:-10vw;
+     bottom:-10vw;
+     left:-10vw;
+     right:-10vw;
+     background:#806600;
+     display:block;
+     z-index:-1;
+     background:#000
+    }
+    .header .nav-bar-right li {
+     float:right;
+     line-height:3.5vw;
+     transition:.6s
+    }
+    .header .scroll li {
+     line-height:1.5vw;
+     transition:.6s
+    }
+    .header #logo {
+     height:7vw;
+     width:7vw;
+     transition:.6s;
+     border-radius:2vw 2vw 2vw 2vw;
+     background:#806600
+    }
+    .header #logo_text {
+     color:#806600
+    }
+    .header #logo_text p {
+     margin-bottom:auto;
+     margin-top:auto;
+     display:block
+    }
+    .icon {
+     height:100%;
+     width:100%;
+     border:.25vw solid #806600;
+     background:#806600;
+     border-radius:1vw 1vw 1vw 1vw
+    }
+    .homeh1 {
+     background-color:#000;
+     background-color:rgba(0,0,0,.4);
+     border:.5vw solid #806600;
+     position:absolute;
+     top:23vw;
+     left:50vw;
+     background:#000;
+     opacity:.9;
+     transform:translate(-50%,-35%);
+     z-index:2;
+     width:80vw;
+     padding:1vw;
+     text-align:center
+    }
+    .homeh1 h1 {
+     font-size:4vw;
+     color:goldenrod;
+     font-weight:700
+    }
+    .homeh1 .book_btn {
+     background:0 0;
+     background-color:#000;
+     background-color:rgba(0,0,0,.4);
+     color:#806600;
+     border:.5vw solid #806600;
+     background:#000;
+     opacity:.9;
+     position:absolute;
+     top:18.6vw;
+     left:40vw;
+     transform:translate(-50%,-50%);
+     z-index:2;
+     width:12vw;
+     padding:.5vw;
+     text-align:center
+    }
+    .homeh1 .book_btn p {
+     font-weight:700
+    }
+    .homeh1 .book_btn p {
+     color:#806600;
+     font-size:1.5vw
+    }
+    .homeh1 .book_btn:hover {
+     cursor:pointer;
+     background:#806600;
+     border:.5vw solid #000
+    }
+    .homeh1 .book_btn:hover p {
+     color:#000
+    }
+    .parallax_home {
+     width:100vw;
+     background-image:url(../images/WhatsApp\ Image\ 2020-06-09\ at\ 1.45.21\ PM.jpeg);
+     filter:blur(0);
+     -webkit-filter:blur(0);
+     height:65vw;
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:cover
+    }
+    .parallax_home .center-con {
+     display:none;
+     height:100vh;
+     align-items:center;
+     justify-content:center
+    }
+    .parallax_home .round {
+     position:relative;
+     border:.35vw solid #806600;
+     width:8.5vw;
+     height:8vw;
+     border-radius:100%;
+     margin-top:50vw;
+     background:black;
+     opacity:.9;
+     cursor:pointer;
+     margin-left:1.5vw;
+    }
+    .parallax_home span {
+     z-index:999;
+     height:.25vw;
+     margin:0;
+     width:2.4vw;
+     background:#806600;
+     transition:.4s ease
+    }
+    .parallax_home span:first-child {
+     display:block;
+     position:absolute;
+     transform:rotate(45deg);
+     left:25%;
+     bottom:35%
+    }
+    .parallax_home span:nth-child(2) {
+     display:block;
+     position:absolute;
+     transform:rotate(-45deg);
+     left:45%;
+     bottom:35%
+    }
+    .parallax_home span:nth-child(3) {
+     display:block;
+     position:absolute;
+     transform:rotate(45deg);
+     left:25%;
+     bottom:54%
+    }
+    .parallax_home span:nth-child(4) {
+     display:block;
+     position:absolute;
+     transform:rotate(-45deg);
+     left:45%;
+     bottom:54%
+    }
+    .parallax_home .round:hover span:nth-child(1) {
+     transform:rotate(-135deg)
+    }
+    .parallax_home .round:hover span:nth-child(2) {
+     transform:rotate(135deg)
+    }
+    .parallax_home .round:hover span:nth-child(3) {
+     transform:rotate(225deg)
+    }
+    .parallax_home .round:hover span:nth-child(4) {
+     transform:rotate(-225deg)
+    }
+    .parallax_about,
+    .parallax_contact,
+    .parallax_founders,
+    .parallax_gallery,
+    .parallax_news,
+    .parallax_services,
+    .parallax_sponsors {
+     background-image:url(../images/Webp.net-compress-image.jpg);
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-position:center;
+     background-attachment:fixed
+    }
+    .parallax_about {
+     width:100vw
+    }
+    .parallax_about .about_header li {
+     font-size:1.5vw;
+     color:#806600;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     text-shadow:2px 2px 8px #000;
+     text-shadow:2px 2px 8px #000
+    }
+    .parallax_about .about_header .bigBox {
+     border:.5vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw;
+     margin:1vw 8vw 1vw 8vw;
+     background:#000;
+     opacity:.9;
+     padding:2vw 2vw 2vw 2vw
+    }
+    .parallax_about .down-arrow {
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     background:#806600;
+     width:10vw;
+     height:8vw;
+     border-radius:50%;
+     border:.25vw solid #806600;
+     object-fit:cover;
+     margin-top:-6vw;
+     outline:0
+    }
+    .parallax_about #about-hid {
+     max-height:0;
+     overflow:hidden;
+     transition:max-height .5s ease-out;
+    }
+    .parallax_about #info {
+     height:9vw;
+     width:10vw;
+     padding-top:.6vw;
+     display:block;
+     background:#806600;
+     border:1vw solid #806600;
+     border-radius:5vw 5vw 5vw 5vw
+    }
+    .parallax_about .box {
+     border:.5vw solid #806600;
+     text-align:center;
+     width:40vw;
+     padding:1vw;
+     margin:1vw;
+     background:#000;
+     opacity:.9;
+     margin-left:auto;
+     margin-right:auto;
+     display:block
+    }
+    .parallax_about .box h2,
+    .parallax_about .box p {
+     text-align:center
+    }
+    .parallax_about .box h2 {
+     color:#cca300
+    }
+    .parallax_about .arrow {
+     margin-left:auto;
+     margin-right:auto;
+     display:block
+    }
+    .parallax_about #icon_separate {
+     height:0;
+     width:0;
+     float:right
+    }
+    .parallax_about h1,
+    .parallax_about h2 {
+     font-weight:700
+    }
+    .parallax_about h2 {
+     text-align:left
+    }
+    .parallax_about h3 {
+     text-align:left;
+     margin:0 2vw
+    }
+    .parallax_about ul {
+     margin:2vw
+    }
+    .parallax_about .pdf {
+     text-align:center;
+     background:#000;
+     color:#806600;
+     width:12%;
+     font-size:1.5vw;
+     text-decoration:none;
+     margin-right:auto;
+     margin-left:auto;
+     display:block;
+     padding:1vw;
+     border:.25vw solid #806600;
+     border-radius:5vw 5vw 5vw 5vw
+    }
+    .parallax_about li {
+     list-style-type:none
+    }
+    .parallax_about .list-type3 {
+     margin:0 auto;
+     width:80%
+    }
+    .parallax_about .list-type3 a,
+    .parallax_about .list-type3 li {
+     float:left;
+     height:3.5vw;
+     width:80%;
+     position:relative;
+     line-height:0;
+     margin-bottom:3vw;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     letter-spacing:1px;
+     transition:background-color 1.5s ease
+    }
+    .parallax_about .list-type3 a {
+     text-align:left;
+     padding:2vw;
+     background:#806600;
+     color:#000;
+     font-size:1.5vw;
+     text-decoration:none;
+     -moz-border-radius-bottomright:.8vw;
+     -webkit-border-bottom-right-radius:.8vw;
+     border-bottom-right-radius:.8vw;
+     -moz-border-radius-topright:.8vw;
+     -webkit-border-top-right-radius:.8vw;
+     border-top-right-radius:.8vw
+    }
+    .parallax_about .list-type3 a:before {
+     content:"";
+     float:left;
+     position:absolute;
+     top:0;
+     left:-2.4vw;
+     width:0;
+     height:0;
+     border-color:transparent #806600 transparent transparent;
+     border-style:solid;
+     border-width:2vw 2.4vw 2vw 0
+    }
+    .parallax_about .list-type3 a:after {
+     content:"";
+     position:absolute;
+     top:1.5vw;
+     left:0;
+     float:left;
+     width:1vw;
+     height:1vw;
+     -moz-border-radius:.4vw;
+     -webkit-border-radius:.4vw;
+     border-radius:.4vw;
+     background:#000;
+     -moz-box-shadow:-1px -1px 2px #806600;
+     -webkit-box-shadow:-1px -1px 2px #806600;
+     box-shadow:-1px -1px 2px #806600
+    }
+    .parallax_about .list-type3 a:hover {
+     background:olive
+    }
+    .parallax_about .list-type3 a:hover:before {
+     border-color:transparent #806600 transparent transparent
+    }
+    .parallax_about a:hover {
+     box-shadow:inset -1vw 0 #806600;
+     -webkit-transition:box-shadow .5s;
+     transition:box-shadow .5s
+    }
+    .parallax_services {
+     width:100vw
+    }
+    .parallax_services img {
+     height:100%;
+     width:100%;
+     border-radius:.5vw .5vw .5vw .5vw
+    }
+    .parallax_services .flip-card {
+     background-color:transparent;
+     width:30vw;
+     height:70vh;
+     perspective:1000px
+    }
+    .parallax_services .flip-card-inner {
+     position:relative;
+     width:100%;
+     height:100%;
+     text-align:center;
+     transition:transform 1s;
+     transform-style:preserve-3d;
+     box-shadow:0 4px 8px 0 rgba(0,0,0,.2)
+    }
+    .parallax_services .flip-card:hover .flip-card-inner {
+     transform:rotateY(180deg)
+    }
+    .parallax_services .flip-card-back,
+    .parallax_services .flip-card-front {
+     position:absolute;
+     width:100%;
+     height:100%;
+     -webkit-backface-visibility:hidden;
+     backface-visibility:hidden;
+     border:.5vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw
+    }
+    .parallax_services .flip-card-front {
+     background-color:#bbb;
+     color:#000
+    }
+    .parallax_services .flip-card-back {
+     background-color:#000;
+     color:#806600;
+     transform:rotateY(180deg)
+    }
+    .parallax_services .flip-card-back h1,
+    .parallax_services .flip-card-back h2 {
+     margin:1vw 1vw;
+     background:rgba(0,0,0,0)
+    }
+    .parallax_services .flip-card-back p {
+     text-align:center;
+     margin:3vw 1vw;
+     background:rgba(0,0,0,0)
+    }
+    .parallax_services a {
+     text-decoration:none;
+     cursor:default;
+     background:#000;
+     opacity:.9;
+     border:.25vw solid #806600;
+     border-radius:2vw 2vw 2vw 2vw;
+     width:10vw;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     cursor:pointer;
+     font-size:1vw;
+     padding:1vw
+    }
+    .parallax_services h3,
+    .parallax_services li,
+    .parallax_services p {
+     text-align:left
+    }
+    .parallax_services li {
+     list-style-type:none
+    }
+    .parallax_services h1,
+    .parallax_services h2 {
+     font-weight:700
+    }
+    .parallax_services a:hover {
+     box-shadow:inset -1vw 0 #806600;
+     -webkit-transition:box-shadow .5s;
+     transition:box-shadow .5s
+    }
+    .parallax_services .list-type5 {
+     width:85%;
+     margin:0 auto
+    }
+    .parallax_services .list-type5 ol {
+     list-style-type:none;
+     list-style-type:decimal;
+     margin:0;
+     margin-left:1em;
+     padding:0;
+     counter-reset:li-counter
+    }
+    .parallax_services .list-type5 ol li {
+     position:relative;
+     margin-bottom:1.5vw;
+     padding:.5vw;
+     background-color:#000;
+     opacity:.9;
+     padding-left:1vw;
+     border:.25vw solid #806600;
+     border-radius:3vw 3vw 3vw 3vw
+    }
+    .parallax_services .list-type5 a {
+     cursor:auto;
+     text-decoration:none;
+     color:#806600;
+     width:100%;
+     font-size:1.5vw;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     text-shadow:2px 2px 8px #000;
+     letter-spacing:1px;
+     font-weight:700;
+     border:0;
+     box-shadow:inset -1vw 0 #806600;
+     -webkit-transition:box-shadow .5s;
+     transition:box-shadow .5s
+    }
+    .parallax_services .list-type5 ol li:before {
+     position:absolute;
+     top:-.3em;
+     padding-bottom:3vw;
+     left:-.5em;
+     width:1.8em;
+     height:1.2em;
+     font-size:2em;
+     line-height:1.2;
+     font-weight:700;
+     text-align:center;
+     color:#fff;
+     background-color:#000;
+     opacity:.9;
+     color:#806600;
+     transform:rotate(-20deg);
+     -ms-transform:rotate(-20deg);
+     -webkit-transform:rotate(-20deg);
+     z-index:99;
+     overflow:hidden;
+     content:counter(li-counter);
+     counter-increment:li-counter;
+     border:.25vw solid #806600
+    }
+    .parallax_sponsors {
+     width:100vw
+    }
+    .parallax_sponsors .box img {
+     width:15vw;
+     height:15vw;
+     margin-left:auto;
+     margin-right:auto;
+     display:block
+    }
+    .parallax_sponsors .box h5 {
+     font-size:1.5vw;
+     margin:4vw
+    }
+    .parallax_sponsors h1,
+    .parallax_sponsors h2 {
+     font-weight:700
+    }
+    .parallax_sponsors h1,
+    .parallax_sponsors h2,
+    .parallax_sponsors h3 {
+     color:goldenrod
+    }
+    .parallax_sponsors h2 {
+     font-size:3.5vw
+    }
+    .parallax_sponsors img {
+     border:.5vw solid #806600;
+     background-color:#806600;
+     border-radius:1vw 1vw 1vw 1vw
+    }
+    .parallax_gallery {
+     width:100vw
+    }
+    .parallax_gallery *,
+    .parallax_gallery :after,
+    .parallax_gallery :before {
+     box-sizing:border-box;
+     margin:0;
+     padding:0
+    }
+    .parallax_gallery .swiper-container {
+     background:#000;
+     width:75vw;
+     height:100vh;
+     float:left;
+     transition:opacity .6s ease,transform .3s ease
+    }
+    .parallax_gallery .swiper-container.nav-slider {
+     width:25vw;
+     padding-left:5px
+    }
+    .parallax_gallery .swiper-container.nav-slider .swiper-slide {
+     cursor:pointer;
+     opacity:.4;
+     transition:opacity .3s ease
+    }
+    .parallax_gallery .swiper-container.nav-slider .swiper-slide.swiper-slide-active {
+     opacity:1
+    }
+    .parallax_gallery .swiper-container.nav-slider .swiper-slide .content {
+     width:100%
+    }
+    .parallax_gallery .swiper-container.nav-slider .swiper-slide .content .title {
+     font-size:2vw
+    }
+    .parallax_gallery .swiper-container:hover .swiper-button-next,
+    .parallax_gallery .swiper-container:hover .swiper-button-prev {
+     transform:translateX(0);
+     opacity:1;
+     visibility:visible
+    }
+    .parallax_gallery .swiper-container.loading {
+     opacity:0;
+     visibility:hidden
+    }
+    .parallax_gallery .swiper-slide {
+     overflow:hidden
+    }
+    .parallax_gallery .swiper-slide .slide-bgimg {
+     position:absolute;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     background-position:center;
+     background-size:cover
+    }
+    .parallax_gallery .swiper-slide .entity-img {
+     display:none
+    }
+    .parallax_gallery .swiper-slide .content {
+     position:absolute;
+     top:70%;
+     left:0;
+     width:50%;
+     padding-left:5%;
+     z-index:999999;
+     color:#806600;
+     font-weight:700
+    }
+    .parallax_gallery .swiper-slide .content .title {
+     text-align:left;
+     font-size:3vw;
+     font-weight:700;
+     margin-bottom:3vw
+    }
+    .parallax_gallery .swiper-slide .content span {
+     background:#000;
+     opacity:.9
+    }
+    .parallax_gallery .swiper-slide .content .caption {
+     display:block;
+     font-size:1.5vw;
+     line-height:1.4;
+     transform:translateX(50px);
+     opacity:.5;
+     transition:opacity .3s ease,transform .7s ease
+    }
+    .parallax_gallery .swiper-slide .content .caption.show {
+     transform:translateX(0);
+     opacity:.9
+    }
+    .parallax_gallery [class^=swiper-button-] {
+     width:8.8vw;
+     opacity:0;
+     visibility:hidden
+    }
+    .parallax_gallery .swiper-button-prev {
+     transform:translateX(50px);
+     color:#806600;
+     cursor:grab;
+     font-weight:700;
+     outline:0
+    }
+    .parallax_gallery .swiper-button-next {
+     transform:translateX(-50px);
+     color:#806600;
+     cursor:grab;
+     font-weight:700;
+     outline:0
+    }
+    .parallax_contact {
+     width:100vw
+    }
+    .parallax_contact h1 {
+     font-weight:700
+    }
+    .parallax_contact p {
+     text-align:left;
+     padding-top:1.5vw
+    }
+    .parallax_contact button {
+     background:#000;
+     border:.5vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw;
+     cursor:pointer
+    }
+    .parallax_contact button p {
+     color:#806600;
+     font-size:1vw
+    }
+    .parallax_contact textarea {
+     font-size:1.5vw;
+     border:.5vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw;
+     background:#000;
+     outline:0;
+     color:#806600
+    }
+    .parallax_contact textarea::placeholder {
+     color:#806600
+    }
+    .parallax_contact .icon {
+     height:4vw;
+     width:4vw;
+     background:#806600;
+     margin:1vw 1vw 1vw 1vw;
+     box-shadow:0 44px 84px 0 rgba(0,0,0,.9),0 6px 40px 0 rgba(0,0,0,.9)
+    }
+    .parallax_contact .icons {
+     height:4vw;
+     width:4vw;
+     background:#806600;
+     margin:1vw 1vw 1vw 1vw;
+     box-shadow:0 44px 84px 0 rgba(0,0,0,.9),0 6px 40px 0 rgba(0,0,0,.9);
+     border:.25vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw
+    }
+    .parallax_contact .icon:hover {
+     width:4.5vw;
+     height:4.5vw
+    }
+    .parallax_contact .mapouter {
+     position:relative;
+     text-align:right;
+     height:20vw;
+     width:25vw;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     -webkit-filter:invert(1);
+     filter:invert(1)
+    }
+    .parallax_contact .gmap_canvas {
+     overflow:hidden;
+     background:0 0!important;
+     height:20vw;
+     width:25vw;
+     border:.5vw solid #7f9fef;
+     border-radius:1vw 1vw 1vw 1vw
+    }
+    .parallax_contact .box {
+     width:50%;
+     height:5vw;
+     background:#806600;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     margin:1vw 1vw 1wv 1vw;
+     padding:.5vw 1vw 1vw 1vw;
+     border-radius:1vw 1vw 1vw 1vw;
+     box-shadow:0 4px 8px 0 rgba(0,0,0,.9),0 6px 20px 0 rgba(0,0,0,.9)
+    }
+    .parallax_contact .box a {
+     cursor:auto
+    }
+    .parallax_contact .box a img {
+     cursor:pointer
+    }
+    .parallax_contact #end {
+     padding-top:5vw;
+     text-align:center
+    }
+    .parallax_news {
+     width:100vw;
+     width:100vw
+    }
+    .parallax_news a {
+     cursor:pointer
+    }
+    .parallax_news a img {
+     width:60vw;
+     height:90vh;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     margin-bottom:5vw
+    }
+    .parallax_news h1 {
+     font-weight:700
+    }
+    .parallax_news img {
+     background-color:#806600;
+     border-radius:1.5vw 1.5vw 1.5vw 1.5vw;
+     border:.5vw solid #806600
+    }
+    .parallax_news .mySlidesNews {
+     display:none;
+     transition:.5s
+    }
+    .parallax_news .icon {
+     width:5vw;
+     height:5vw;
+     margin-left:auto;
+     margin-right:auto;
+     display:block
+    }
+    .parallax_news .para {
+     display:none;
+     color: #665200
+    }
+    .parallax_news .col-2 a {
+     text-decoration:none;
+     display:inline-block;
+     font-size:2vw;
+     width:4vw;
+     margin:10vw 5vw;
+     text-align:center;
+     cursor:pointer;
+     color:#000;
+     background:#665200
+    }
+    .parallax_news .col-2 a:hover {
+     background-color:#000;
+     color:#806600;
+     width:4.5vw
+    }
+    .parallax_news .previous {
+     background-color:#f1f1f1;
+     color:#000
+    }
+    .parallax_news .next {
+     background-color:#f1f1f1;
+     color:#000
+    }
+    .parallax_news .round {
+     border-radius:50%
+    }
+    .parallax_founders {
+     width:100vw
+    }
+    .parallax_founders h1 {
+     font-weight:700
+    }
+    .parallax_founders img {
+     float:middle;
+     border:.5vw solid #806600;
+     border-radius:50%;
+     width:50%;
+     height:75vh;
+     object-fit:cover;
+     box-shadow:5px 5px #000,10px 10px #806600,15px 15px #000
+    }
+    .parallax_founders .mySlidesfounders {
+     display:none
+    }
+    .parallax_founders .captionFounders {
+     display:none
+    }
+    .parallax_founders .w3-left,
+    .parallax_founders .w3-right {
+     cursor:pointer;
+     font-size:2vw
+    }
+    .parallax_founders .w3-left,
+    .parallax_founders .w3-right {
+     background:0 0;
+     color:#806600;
+     width:4vw;
+     font-size:3vw;
+     font-weight:700
+    }
+    .parallax_founders .caption-container {
+     background-color:transparent;
+     padding:.5vw .5vw
+    }
+    .parallax_founders .captionFounders {
+     color:#806600
+    }
+    .parallax_founders .captionFounders h1 {
+     font-weight:700
+    }
+    .parallax_founders .captionFounders .box {
+     border:.5vw solid #806600;
+     width:30%;
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     background:#000;
+     opacity:.9;
+     margin-bottom:4vw;
+     margin-top:4vw;
+     box-shadow:5px 5px #000,10px 10px #806600,15px 15px #000
+    }
+    .parallax_founders .captionFounders .box p {
+     text-align:left;
+     margin-left:2vw
+    }
+    .parallax_founders .dot {
+     cursor:pointer;
+     height:1.5vw;
+     width:1.5vw;
+     margin:-2vw 2px;
+     background-color:transparent;
+     border:.2vw solid #000;
+     border-radius:50%;
+     display:inline-block;
+     transition:background-color .6s ease
+    }
+    .parallax_founders .active,
+    .parallax_founders .dot:hover {
+     background-color:#806600
+    }
+    .open-button {
+     background-color:transparent;
+     height:15vw;
+     cursor:pointer;
+     opacity:.9;
+     position:fixed;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     bottom:2vw;
+     right:2vw;
+     width:6vw;
+     height:6vw;
+     border:0.35vw solid #806600;
+     border-radius:50%;
+     font-weight:700;
+     font-size:1vw;
+     z-index:1
+    }
+    .chat-popup {
+     display:none;
+     position:fixed;
+     bottom:2vw;
+     right:2vw;
+     border:.1vw solid #806600;
+     z-index:9;
+     width:18vw;
+     z-index:9999
+    }
+    .form-container {
+     max-width:22vw;
+     padding:.5vw;
+     background-color:#000;
+     font-size:3vw
+    }
+    .form-container textarea {
+     width:100%;
+     padding:.3vw;
+     margin:.5vw 0 1.2vw 0;
+     border:.25vw solid #806600;
+     background:#000;
+     resize:none;
+     min-height:14vw
+    }
+    .form-container textarea::placeholder {
+     color:#806600
+    }
+    .form-container textarea:focus {
+     background-color:#ddd;
+     outline:0
+    }
+    .form-container .btn {
+     background-color:#000;
+     color:#806600;
+     padding:1vw 1.6vw;
+     font-family:Merriweather,serif;
+     -webkit-font-smoothing:antialiased;
+     -moz-osx-font-smoothing:grayscale;
+     text-shadow:2px 2px 8px #000;
+     border:.25vw solid #806600;
+     border-radius:1vw 1vw 1vw 1vw;
+     cursor:pointer;
+     width:100%;
+     margin-bottom:.5vw;
+     opacity:.8;
+     font-size:1vw
+    }
+
+    #backblack{
+        background-color: rgba(0, 0, 0, 0.767);
+    }
+
+    #result {
+        background: transparent;
+        font-size: 20px;
+        color: white;
+    }
+
+    
+
+
+
+
+
+    .form-container .cancel {
+     background-color:#000;
+     font-size:1vw
+    }
+    .form-container .btn:hover,
+    .open-button:hover {
+     opacity:1
+    }
+    #main,
+    #mySidebar {
+     display:none
+    }
+   }
+   
